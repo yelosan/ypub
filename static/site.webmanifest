@@ -1,0 +1,23 @@
+{
+  "name": "Yelosan Publishing",
+  "short_name": "Yelosan",
+  "description": "",
+  "dir": "auto",
+  "lang": "en-PH",
+  "categories": ["service"],
+  "display": "minimal-ui",
+  "scope": "https://yelosan.youronly.one/",
+  "start_url": "https://yelosan.youronly.one/",
+  "icons": [
+    {
+      "src": "https://rsc.youronly.one/favicon/yoo/android-chrome-192x192.png?fmgy=TimmieIsMyFate",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://rsc.youronly.one/favicon/yoo/android-chrome-512x512.png?fmgy=TimmieIsMyFate",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

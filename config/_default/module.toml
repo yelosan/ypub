@@ -1,0 +1,77 @@
+[[imports]]
+  disable = false                           # default: false
+  ignoreConfig = false                      # default: false
+  ignoreImports = false                     # default: false
+  noMounts = false                          # default: false
+  noVendor = false                          # default: false
+  path = "gitlab.com/youronlyone/defaults"
+
+[[imports]]
+  path = "gitlab.com/yelosan/hugo-semantic-web"
+
+[[imports]]
+  path = "gitlab.com/yelosan/hugo-shortcodes"
+
+[[imports]]
+  path = "gitlab.com/yelosan/hugo-feeds"
+
+[[imports]]
+  path = "github.com/techmagus/hugo-theme-hello-friend-ng"
+
+
+# See: https://gohugo.io/hugo-modules/configuration/#module-config-mounts
+#   if you add a mounts section you should remove the old staticDir etc. settings.
+#   When you add a mount, the default mount for the concerned target root is ignored: be sure to explicitly add it.
+  [[mounts]]
+    source = "archetypes"
+    target = "archetypes"
+
+  [[mounts]]
+    source = "assets"
+    target = "assets"
+
+  #[[mounts]]
+  #  source = "content/en"
+  #  target = "content"
+  #  lang = "en"                                        # when in multihost / multilang mode
+  [[mounts]]
+    source = "content/en-ph"
+    target = "content"
+    lang = "en-ph"                                      # when in multihost / multilang mode
+  [[mounts]]
+    source = "content/fil"
+    target = "content"
+    lang = "fil"                                      # when in multihost / multilang mode
+  [[mounts]]
+    source = "content/tl-tglg"
+    target = "content"
+    lang = "tl-tglg"                                      # when in multihost / multilang mode
+
+  [[mounts]]
+    source = "data"
+    target = "data"
+
+  [[mounts]]
+    source = "i18n"
+    target = "i18n"
+
+  [[mounts]]
+    source = "layouts"
+    target = "layouts"
+
+  #[[mounts]]
+  #  source = "static/en"
+  #  target = "static"
+  #  lang = "en"                                        # when in multihost / multilang mode
+  [[mounts]]
+    source = "static/en-ph"
+    target = "static"
+    lang = "en-ph"                                      # when in multihost / multilang mode
+  [[mounts]]
+    source = "static/fil"
+    target = "static"
+    lang = "fil"                                         # when in multihost / multilang mode
+  [[mounts]]
+    source = "static/tl-tglg"
+    target = "static"
+    lang = "tl-tglg"                                         # when in multihost / multilang mode

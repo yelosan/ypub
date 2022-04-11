@@ -1,0 +1,114 @@
+### Info: https://gohugo.io/content-management/multilingual/#configure-languages
+
+#[en]
+  #languageName = "English"
+  #languageFlag = "🇬🇧"
+  #languageCode = "en"
+  #languageCodeCountry = "DO_NOT_USE"
+  #timeZone = "Etc/UTC"
+  #weight = 110
+
+[en-ph]
+  languageName = "English (PH)"
+  languageFlag = "🇵🇭"
+  languageCode = "en-PH"
+  timeZone = "Asia/Manila"
+  weight = 111
+  subtitle = "Welcome!"
+  [en-ph.params]
+    homeSubtitle = "Welcome!"
+  [[en-ph.menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+  [[en-ph.menu.main]]
+    identifier = "youronlyone"
+    name = "YourOnly.One"
+    url = "https://im.youronly.one/"
+
+
+[fil]
+  languageName = "Filipino"
+  languageFlag = "🇵🇭"
+  languageCode = "fil"
+  timeZone = "Asia/Manila"
+  weight = 120
+  subtitle = "Mabuhay!"
+  [fil.params]
+    homeSubtitle = "Mabuhay!"
+  [[fil.menu.main]]
+    identifier = "about"
+    name = "Tungkol"
+    url = "/about/"
+  [[fil.menu.main]]
+    identifier = "youronlyone"
+    name = "YourOnly.One"
+    url = "https://im.youronly.one/"
+
+[tl-tglg]
+  languageName = "ᜊᜌ᜔ᜊᜌᜒᜈ᜔ ᜆᜄᜎᜓᜄ᜔"
+  languageFlag = "🇵🇭"
+  languageCode = "tl-Tglg"
+  timeZone = "Asia/Manila"
+  weight = 121
+  title = "ᜌᜒᜎᜓᜐᜈ᜔ Publishing"
+  subtitle = "ᜋᜊᜓᜑᜌ᜔᜶"
+  [tl-tglg.params]
+    homeSubtitle = "ᜋᜊᜓᜑᜌ᜔᜶"
+    [tl-tglg.params.logo]
+      logoMark     = "₱"
+      logoText = "ᜌᜒᜎᜓᜐᜈ᜔"
+  [[tl-tglg.menu.main]]
+    identifier = "about"
+    name = "ᜆᜓᜅ᜔ᜃᜓᜎ᜔"
+    url = "/about/"
+  [[tl-tglg.menu.main]]
+    identifier = "youronlyone"
+    name = "YourOnly.One"
+    url = "https://im.youronly.one/"
+
+#[zh-hant]
+  #languageName = "中文（繁體）"
+  #languageFlag = "🇨🇳"
+  #languageCode = "zh-Hant"
+  #languageCodeCountry = "cn"
+  #timeZone = "Asia/Shanghai"
+  #weight = 130
+  #title = ""
+  #[zh-hant.params]
+    #description = ""     # IMPT for Schema.org; OpenGraph; Twitter Cards -- for RDFa, Microdata, JSON-LD
+
+#[zh-hans]
+  #languageName = "中文（简体）"
+  #languageFlag = "🇨🇳"
+  #languageCode = "zh-Hans"
+  #languageCodeCountry = "cn"
+  #timeZone = "Asia/Shanghai"
+  #weight = 131
+  #title = ""
+  #[zh-hans.params]
+    #description = ""     # IMPT for Schema.org; OpenGraph; Twitter Cards -- for RDFa, Microdata, JSON-LD
+
+#[ja]
+  #languageName = "日本語"
+  #languageFlag = "🇯🇵"
+  #languageCode = "ja"
+  #languageCodeCountry = "jp"
+  #timeZone = "Asia/Tokyo"
+  #weight = 140
+  #title = "YOOkiクロニクル"
+  #[ja.params]
+    #description = "Yahuhanan Yukia Sese Cunetaの年代記 / ᜌᜓᜃᜒ (Yuki ・ 雪亮)."     # IMPT for Schema.org; OpenGraph; Twitter Cards -- for RDFa, Microdata, JSON-LD
+    #motto = "これが忘却の終わりではないなら、私は自分の人生がまさにこの日に終わるかのように毎日生きるでしょう。"
+
+#[ko]
+  #languageName = "한국어"
+  #languageFlag = "🇰🇷"
+  #languageCode = "ko"
+  #languageCodeCountry = "kr"
+  #timeZone = "Asia/Seoul"
+  #weight = 150
+  #title = "YOOki 연대기"
+  #[ko.params]
+    #description = "Yahuhanan Yukia Sese Cuneta의 연대기 / ᜌᜓᜃᜒ (Yuki ・ 雪亮)."      # IMPT for Schema.org; OpenGraph; Twitter Cards -- for RDFa, Microdata, JSON-LD
+    #motto = "이것이 망각의 끝이 아니라면 내 인생이 바로 오늘 끝날 듯 매일 살 것이다."
