@@ -26,7 +26,6 @@
     name = "YourOnly.One"
     url = "https://im.youronly.one/"
 
-
 [fil]
   languageName = "Filipino"
   languageFlag = "🇵🇭"
@@ -46,7 +45,7 @@
     url = "https://im.youronly.one/"
 
 [tl-tglg]
-  languageName = "ᜊᜌ᜔ᜊᜌᜒᜈ᜔ ᜆᜄᜎᜓᜄ᜔"
+  languageName = "ᜆᜄᜎᜓᜄ᜔ ᜊᜌ᜔ᜊᜌᜒᜈ᜔"
   languageFlag = "🇵🇭"
   languageCode = "tl-Tglg"
   timeZone = "Asia/Manila"
