@@ -1,6 +1,14 @@
 # Translations for Philippine English
 # https://gohugo.io/content-management/multilingual/#translation-of-strings
 
+# BGN: theme
+  [notFound]
+    other = "ᜑᜒᜈ᜔ᜇᜒ ᜋᜃᜒᜆ ᜀᜅ᜔ ᜉᜑᜒᜈ᜶"
+  [wordCount]
+    one = "ᜁᜐᜈ᜔ ᜐᜎᜒᜆ"
+    other = "{{ .Count }} ᜋᜅ ᜐᜎᜒᜆ"
+# END: theme
+
 # BGN: Date and Time Formats
   [datetimelongtzd]
     other = "2006-01-02 15:04:05Z07:00"
@@ -30,60 +38,72 @@
   [blogs]
     other = "Blog"
   [translations]
-    other = "Translations"
+    other = "ᜋᜅ ᜐᜎᜒᜈ᜔"
   [postAvailable]
-    other = "Also available in"
+    other = "ᜁᜊᜅ᜔ ᜐᜎᜒᜈ᜔"
   [featuredposts]
     other = "Featured Posts"
   [recentposts]
-    other = "Recent Posts"
+    other = "ᜋᜅ ᜊᜄᜓᜅ᜔ post"
+  [lastmod]
+    other = "ᜑᜓᜎᜒᜅ᜔ update"
+  [lastModified]
+    other = "ᜑᜓᜎᜒᜅ᜔ update"
   [allChannels]
-    other = "All Channels"
+    other = "ᜋᜅ channel"
   [allCategories]
-    other = "All Categories"
+    other = "ᜋᜅ Kategorya"
   [allTags]
-    other = "All Tags"
+    other = "ᜋᜅ tag"
   [allSeries]
-    other = "All Series"
+    other = "ᜋᜅ series"
   [allPosts]
-    other = "All Posts"
+    other = "ᜋᜅ post"
   [channel]
     one = "1 Channel"
-    other = "{{ .Count }} Channels"
+    other = "{{ .Count }} ᜋᜅ channel"
   [channels]
     one = "1Channel"
-    other = "{{ .Count }} Channels"
+    other = "{{ .Count }} ᜋᜅ channel"
   [category]
     one = "1 Category"
-    other = "{{ .Count }} Categories"
+    other = "{{ .Count }} ᜋᜅ kategorya"
   [categories]
     one = "1 Category"
-    other = "{{ .Count }} Categories"
+    other = "{{ .Count }} ᜋᜅ kategorya"
   [tag]
     one = "1 Tag"
-    other = "{{ .Count }} Tags"
+    other = "{{ .Count }} ᜋᜅ tag"
   [tags]
     one = "1 Tag"
-    other = "{{ .Count }} Tags"
+    other = "{{ .Count }} ᜋᜅ tag"
+  [archives]
+    other = "Archives"
   [readtime]
-    other = "{{ .Count }} min read"
+    other = "{{ .Count }} min ᜉᜄ᜔ᜊᜐ"
+  [readingTime]
+    other = "{{ .Count }} min ᜉᜄ᜔ᜊᜐ"
   [series]
     one = "1 Series"
-    other = "{{ .Count }} Series"
+    other = "{{ .Count }} ᜋᜅ series"
   [post]
     one = "1 Post"
-    other = "{{ .Count }} Posts"
+    other = "{{ .Count }} ᜋᜅ post"
   [posts]
     one = "1 Post"
-    other = "{{ .Count }} Posts"
+    other = "{{ .Count }} ᜋᜅ post"
   [postby]
-    other = "Post by"
+    other = "Post ᜈᜒ"
   [readmore]
-    other = "Read more"
+    other = "ᜉᜆᜓᜎᜓᜌ᜔ ᜈ ᜊᜐᜑᜒᜈ᜔"
+  [tableOfContents]
+    other = "ᜆᜎᜀᜈ᜔ ᜈᜅ᜔ ᜈᜒᜎᜎᜋᜈ᜔"
+  [toc]
+    other = "ᜆᜎᜀᜈ᜔ ᜈᜅ᜔ ᜈᜒᜎᜎᜋᜈ᜔"
   [search]
-    other = "Search"
+    other = "ᜋᜄ᜔ᜑᜈᜉ᜔"
   [nowplaying]
-    other = "Now Playing"
+    other = "ᜉᜒᜈᜃᜒᜃᜒᜅ᜔ᜄᜈ᜔"
 # END: YourOnly.One: Global
 
 # BGN: attribution and license

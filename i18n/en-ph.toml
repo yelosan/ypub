@@ -1,6 +1,14 @@
 # Translations for Philippine English
 # https://gohugo.io/content-management/multilingual/#translation-of-strings
 
+# BGN: theme
+  [notFound]
+    other = "Oops, page not found…"
+  [wordCount]
+    one = "One Word"
+    other = "{{ .Count }} Words"
+# END: theme
+
 # BGN: Date and Time Formats
   [datetimelongtzd]
     other = "2006-01-02 15:04:05Z07:00"
@@ -37,6 +45,10 @@
     other = "Featured Posts"
   [recentposts]
     other = "Recent Posts"
+  [lastmod]
+    other = "Latest update"
+  [lastModified]
+    other = "Latest update"
   [allChannels]
     other = "All Channels"
   [allCategories]
@@ -65,7 +77,11 @@
   [tags]
     one = "1 Tag"
     other = "{{ .Count }} Tags"
+  [archives]
+    other = "Archives"
   [readtime]
+    other = "{{ .Count }} min read"
+  [readingTime]
     other = "{{ .Count }} min read"
   [series]
     one = "1 Series"
@@ -80,6 +96,10 @@
     other = "Post by"
   [readmore]
     other = "Read more"
+  [tableOfContents]
+    other = "Table of Contents"
+  [toc]
+    other = "Table of Contents"
   [search]
     other = "Search"
   [nowplaying]

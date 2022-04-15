@@ -1,6 +1,14 @@
 # Translations for Philippine English
 # https://gohugo.io/content-management/multilingual/#translation-of-strings
 
+# BGN: theme
+  [notFound]
+    other = "Hindi makita ang pahina…"
+  [wordCount]
+    one = "Isang salita"
+    other = "{{ .Count }} mga salita"
+# END: theme
+
 # BGN: Date and Time Formats
   [datetimelongtzd]
     other = "2006-01-02 15:04:05Z07:00"
@@ -30,60 +38,72 @@
   [blogs]
     other = "Blog"
   [translations]
-    other = "Translations"
+    other = "Mga salin"
   [postAvailable]
-    other = "Also available in"
+    other = "Ibang salin"
   [featuredposts]
     other = "Featured Posts"
   [recentposts]
-    other = "Recent Posts"
+    other = "Mga bagong post"
+  [lastmod]
+    other = "Huling update"
+  [lastModified]
+    other = "Huling update"
   [allChannels]
-    other = "All Channels"
+    other = "Mga channel"
   [allCategories]
-    other = "All Categories"
+    other = "Mga Kategorya"
   [allTags]
-    other = "All Tags"
+    other = "Mga tag"
   [allSeries]
-    other = "All Series"
+    other = "Mga series"
   [allPosts]
-    other = "All Posts"
+    other = "Mga post"
   [channel]
     one = "1 Channel"
-    other = "{{ .Count }} Channels"
+    other = "{{ .Count }} mga channel"
   [channels]
     one = "1Channel"
-    other = "{{ .Count }} Channels"
+    other = "{{ .Count }} mga channel"
   [category]
     one = "1 Category"
-    other = "{{ .Count }} Categories"
+    other = "{{ .Count }} mga kategorya"
   [categories]
     one = "1 Category"
-    other = "{{ .Count }} Categories"
+    other = "{{ .Count }} mga kategorya"
   [tag]
     one = "1 Tag"
-    other = "{{ .Count }} Tags"
+    other = "{{ .Count }} mga tag"
   [tags]
     one = "1 Tag"
-    other = "{{ .Count }} Tags"
+    other = "{{ .Count }} mga tag"
+  [archives]
+    other = "Archives"
   [readtime]
-    other = "{{ .Count }} min read"
+    other = "{{ .Count }} min pagbasa"
+  [readingTime]
+    other = "{{ .Count }} min pagbasa"
   [series]
     one = "1 Series"
-    other = "{{ .Count }} Series"
+    other = "{{ .Count }} mga series"
   [post]
     one = "1 Post"
-    other = "{{ .Count }} Posts"
+    other = "{{ .Count }} mga post"
   [posts]
     one = "1 Post"
-    other = "{{ .Count }} Posts"
+    other = "{{ .Count }} mga post"
   [postby]
-    other = "Post by"
+    other = "Post ni"
   [readmore]
-    other = "Read more"
+    other = "Patuloy na basahin"
+  [tableOfContents]
+    other = "Talaan ng Nilalaman"
+  [toc]
+    other = "Talaan ng Nilalaman"
   [search]
-    other = "Search"
+    other = "Maghanap"
   [nowplaying]
-    other = "Now Playing"
+    other = "Pinakikinggan"
 # END: YourOnly.One: Global
 
 # BGN: attribution and license
