@@ -1,29 +1,27 @@
 ####### Base Config #######
-  baseURL = "https://yelosan.youronly.one/"                    # .Site.BaseURL
-  title = "Yelosan Publishing"                # .Site.Title; IMPT for Schema.org; OpenGraph; Twitter Cards -- for RDFa, Microdata, JSON-LD
-  copyright = ""                                          # .Site.Copyright; leave empty and uncommented to override theme default; we are using our own footer
+  baseURL = "https://yelosan.youronly.one/"             # .Site.BaseURL
+  title = "Yelosan Publishing"                                        # .Site.Title; IMPT for Schema.org; OpenGraph; Twitter Cards -- for RDFa, Microdata, JSON-LD
+  copyright = ""                                            # .Site.Copyright; leave empty and uncommented to override theme default; we are using our own footer
   timeZone = "Etc/UTC"
 
 
 ####### Site settings #######
-  #footnoteAnchorPrefix = ""                              # prefix for footnote anchors
-  footnoteReturnLinkContents = "⤴️"                        # text to display for footnote return links
   paginate = 8
-  #paginatePath = "page"                                  # https://example.com/page/2
-  rssLimit = 100
-  summaryLength = 100                                     # default: 70
+  #paginatePath = "page"                                     # https://example.com/page/2
+  rssLimit = 20
+  summaryLength = 100                                       # default: 70
 
   #### Other settings ####
-    #disqusShortname = "youronlyone"                       # .Site.DisqusShortname
-    #googleAnalytics = ""                     # .Site.GoogleAnalytics
+    #disqusShortname = "youronlyone"                         # .Site.DisqusShortname
+    #googleAnalytics = ""                                    # .Site.GoogleAnalytics
 
 
 ####### Backend settings #######
-  canonifyURLs = true                                     # true for our use-case
-  #disableAliases = true                                  # use this if we want to use server redirects
-  enableEmoji = true                                      # format :smile:
-  enableGitInfo = false                                   # it is in Git time
-  relativeURLs = false                                    # false for our use-case; make all relative URLs relative to content root
+  canonifyURLs = true                                       # true for our use-case
+  #disableAliases = true                                     # use this if we want to use server redirects
+  enableEmoji = false                                       # format :smile:.
+  enableGitInfo = false
+  relativeURLs = false                                      # false for our use-case; make all relative URLs relative to content root
   refLinksNotFoundURL = "https://yelosan.youronly.one/"
 
   ## Dev settings ##
@@ -36,7 +34,7 @@
 
 #### LANG stuff ####
   defaultContentLanguage = "fil"
-  defaultContentLanguageInSubdir = false                  # false -- homepage is using HTML redirect which is blocked by some browsers
+  defaultContentLanguageInSubdir = true
   hasCJKLanguage = true
   languageCode = "fil"
 
