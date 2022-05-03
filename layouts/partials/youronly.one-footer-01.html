@@ -2,16 +2,16 @@
   <!-- BGN: Yuki_Copyleft -->
     <footer id="Yuki_site_footer" class="global_footer grid_center">
       <div class="menu_footer txt_center">
-        [ <a href="{{ .Site.BaseURL }}" rel="noopener">{{ i18n "home" }}</a>
-        ] [ <a href="https://im.youronly.one" rel="noopener">I'M YourOnly.One <span class="emoji">🔏</span></a>
-        ] [ <a href="https://semweb.youronly.one" rel="noopener">Semantic Web for Hugo</a> ]
+        [ <a href="{{ .Site.BaseURL }}" rel="home noopener">{{ i18n "home" }}</a>
+        ] [ <a href="https://im.youronly.one" rel="me noopener">I'M YourOnly.One <span class="emoji">🔏</span></a>
+        ] [ <a href="https://semweb.youronly.one" rel="project noopener">Semantic Web for Hugo</a> ]
       </div>
       <div class="cc_icons txt_center">
         <a href="https://creativecommons.org/licenses/by-sa/4.0/" aria-label="Content License: Creative Commons Attribution-ShareAlike 4.0 International" rel="license noopener external"><i class="cc cc-cc cc-2x text-red" aria-hidden="true" title="Content License: Creative Commons Attribution-ShareAlike 4.0 International"></i> <i class="cc cc-by cc-2x text-green" aria-hidden="true" title="Content License: Creative Commons Attribution-ShareAlike 4.0 International"></i> <i class="cc cc-sa cc-2x text-blue" aria-hidden="true" title="Content License: Creative Commons Attribution-ShareAlike 4.0 International"></i></a>
         <!-- <a href="https://creativecommons.org/licenses/by-sa/4.0/" aria-label="Content License: Creative Commons Attribution-ShareAlike 4.0 International" rel="license noopener external nofollow"><i class="cc cc-THREE cc-2x text-green" aria-hidden="true" title="Content License: Creative Commons Attribution-ShareAlike 4.0 International"></i></a> -->
       </div>
       <div class="ypub txt_left">
-        <a href="https://yelosan.youronly.one" title="Yelosan Publishing" rel="noopener">&#x1F90E;</a>
+        <a href="https://yelosan.youronly.one" title="Yelosan Publishing" rel="publisher me noopener">&#x1F90E;</a>
       </div>
       <div class="copyleft txt_center">
         {{ i18n "ContentOnBGN" }} <span xmlns:dct="https://purl.org/dc/terms/" property="dct:title"><b><a xmlns:cc="https://creativecommons.org/ns#" href="https://youronly.one" property="cc:attributionName" rel="cc:attributionURL me noopener external">{{ .Site.Title }}</a></b></span>&#x2122; {{ i18n "copyleft" }} &#x1F12F; {{ if eq now.Year .Site.Params.siteStartYear }}{{ now.Year }}{{ else }}{{ .Site.Params.siteStartYear }}–{{ now.Year }}{{ end }}
@@ -23,6 +23,6 @@
   <!-- END: Yuki -->
   <p class="txt_center">
     {{/* {{ i18n "freehostingby" }} <a href="https://keybase.io" rel="noopener external nofollow">Keybase</a> */}}
-    ・ {{ i18n "poweredby" }} <a href="https://gohugo.io/" rel="noopener external nofollow">Hugo</a> ・
+    ・ {{ i18n "poweredby" }} <a href="https://gohugo.io/" rel="generator noopener external">Hugo</a> ・
   </p>
 <!-- END: Hugo Yuki Footer -->
