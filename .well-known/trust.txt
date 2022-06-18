@@ -3,4 +3,5 @@
 ###
 
 control=https://im.youronly.one/
+control=https://semweb.youronly.one/
 contact=https://im.youronly.one/p/contact-us/
