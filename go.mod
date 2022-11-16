@@ -1,6 +1,6 @@
 module gitlab.com/yelosan/ypub.git
 
-go 1.18
+go 1.19
 
 require (
 	github.com/techmagus/hugo-theme-hello-friend-ng main
