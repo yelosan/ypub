@@ -8,6 +8,8 @@ faviconbuster = "TimmieIsMyFate"
 jquerycdn = false
 websubhubs = ["https://pubsubhubbub.appspot.com/", "https://youronlyone.superfeedr.com/", "https://pubsubhubbub.superfeedr.com/", "https://websubhub.com/hub"]
 
+favicon_mstilecolor = "#2b5797"
+
 ### BGN: Structured Data ###
 	siteStartYear = 2020
 
