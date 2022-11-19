@@ -3,10 +3,9 @@ module gitlab.com/yelosan/ypub.git
 go 1.19
 
 require (
-	github.com/techmagus/hugo-theme-hello-friend-ng main
-	gitlab.com/yelosan/hugo-feeds main
-	gitlab.com/yelosan/hugo-semantic-web main
-	gitlab.com/yelosan/hugo-shortcodes main
-	gitlab.com/youronlyone/content main
-	gitlab.com/youronlyone/defaults main
+  codeberg.org/yelosan/hugo-feeds main
+  codeberg.org/yelosan/hugo-shortcodes main
+  codeberg.org/yelosan/hugo-semantic-web main
+  codeberg.org/youronlyone/defaults main
+  github.com/techmagus/hugo-theme-hello-friend-ng main
 )

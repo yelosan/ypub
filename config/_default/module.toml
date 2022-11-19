@@ -1,7 +1,7 @@
 [hugoVersion]
   extended = true
   #max = ""
-  min = "0.104.0"
+  min = "0.106.0"
 
 [[imports]]
   disable = false                           # default: false
@@ -9,16 +9,33 @@
   ignoreImports = false                     # default: false
   noMounts = false                          # default: false
   noVendor = false                          # default: false
-  path = "gitlab.com/youronlyone/defaults"
+  path = "codeberg.org/yelosan/hugo-feeds"
 
 [[imports]]
-  path = "gitlab.com/yelosan/hugo-semantic-web"
+  path = "codeberg.org/yelosan/hugo-shortcodes"
 
 [[imports]]
-  path = "gitlab.com/yelosan/hugo-shortcodes"
+  path = "codeberg.org/yelosan/hugo-semantic-web"
+
+#[[imports]]
+#  path = "gitlab.com/youronlyone/images"
+#  # BGN: /yelosan.youronly.one/ images
+#    [[imports.mounts]]
+#      source = "yelosan.youronly.one"
+#      target = "assets/images"
+#  # END: /yelosan.youronly.one/ images
+
+#[[imports]]
+#  path = "codeberg.org/youronlyone/content"
+#  # BGN: /yelosan.youronly.one/ content
+#    [[imports.mounts]]
+#      source = "yelosan.youronly.one/en-ph"
+#      target = "content"
+#      lang = "en-ph"
+#  # END: /yelosan.youronly.one/ content
 
 [[imports]]
-  path = "gitlab.com/yelosan/hugo-feeds"
+  path = "codeberg.org/youronlyone/defaults"
 
 [[imports]]
   path = "github.com/techmagus/hugo-theme-hello-friend-ng"
