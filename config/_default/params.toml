@@ -11,37 +11,37 @@ websubhubs = ["https://pubsubhubbub.appspot.com/", "https://youronlyone.superfee
 favicon_mstilecolor = "#2b5797"
 
 ### BGN: Structured Data ###
-	siteStartYear = 2020
+  siteStartYear = 2020
 
-	description = "Yelosan Publishing"
-	#license = "https://im.youronly.one/p/legal-notice/"
-	keywords = ["Yelosan", "Yelosan Publishing", "yelosanpub", "YourOnly.One", "Yuki", "ᜌᜓᜃᜒ", "Chronicles"] # Can be overriden per page
-	#images = ["https://rsc.youronly.one/img/y/YOOki_Chronicles.webp", "https://rsc.youronly.one/img/y/Yuki_flag-300h.webp", "https://rsc.youronly.one/img/y/Yuki_flag-square-300x.webp"]
-	#copyright = ""
+  description = "Yelosan Publishing"
+  #license = "https://im.youronly.one/p/legal-notice/"
+  keywords = ["Yelosan", "Yelosan Publishing", "yelosanpub", "YourOnly.One", "Yuki", "ᜌᜓᜃᜒ", "Chronicles"] # Can be overriden per page
+  #images = ["https://rsc.youronly.one/img/y/YOOki_Chronicles.webp", "https://rsc.youronly.one/img/y/Yuki_flag-300h.webp", "https://rsc.youronly.one/img/y/Yuki_flag-square-300x.webp"]
+  #copyright = ""
 ### END: Structured Data ###
 
 ### BGN: Theme settings
-	dateform        = "August 08, 2020"
-	dateformShort   = "Aug 08"
-	dateformNum     = "2020-07-23"
-	dateformNumTime = "2020-07-23 17:08:24 +0800"
+  dateform        = "August 08, 2020"
+  dateformShort   = "Aug 08"
+  dateformNum     = "2020-07-23"
+  dateformNumTime = "2020-07-23 17:08:24 +0800"
 
-	homeSubtitle = "Mabuhay!"
+  homeSubtitle = "Mabuhay!"
 
-	#backgroundImage = ""
+  #backgroundImage = ""
 
-	# Set disableReadOtherPosts to true in order to hide the links to other posts.
-	disableReadOtherPosts = true
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = true
 
-	enableThemeToggle = false
+  enableThemeToggle = false
 
-	# Sharing buttons
-	# There are a lot of buttons preconfigured. If you want to change them,
-	# generate the buttons here: https://sharingbuttons.io
-	# and add them into your own `layouts/partials/sharing-buttons.html`
-	enableSharingButtons = false
+  # Sharing buttons
+  # There are a lot of buttons preconfigured. If you want to change them,
+  # generate the buttons here: https://sharingbuttons.io
+  # and add them into your own `layouts/partials/sharing-buttons.html`
+  enableSharingButtons = false
 
-	enableGlobalLanguageMenu = true
+  enableGlobalLanguageMenu = true
 
   justifyContent = false  # Set "text-align: justify" to .post-content.
 
@@ -55,9 +55,9 @@ favicon_mstilecolor = "#2b5797"
     #bottomText = []
 
   [favicon.color]
-		mask = "#252627"
-		msapplication = "#252627"
-		theme = "#252627"
+    mask = "#252627"
+    msapplication = "#252627"
+    theme = "#252627"
 
   [logo]
     logoMark     = "₱"
@@ -77,45 +77,41 @@ favicon_mstilecolor = "#2b5797"
 ### END: Theme settings
 
 ### BGN: Other Settings ###
-	[semweb]
-		org = "yelosan"
+  [semweb]
+    org = "yelosan"
 
-		#issn = ""
-		acquirelicensepage = "https://im.youronly.one/p/legal-notice/"
-		copyrightnotice = "Copyleft 🄯 CC-BY-SA 4.0 International by JC John Sese Cuneta"
-		credittext = "I'M YourOnly.One (https://im.youronly.one/)"
-		datecreated = "2020-07-01"
-		#isblog = true
-		license = "https://im.youronly.one/p/legal-notice/"
-		publisher = "https://yelosan.youronly.one/"
-		sameas = [
-			"https://mastodon.social/@youronlyone",
-			"https://pixelfed.social/youronlyone",
-			"https://youtube.com/YourOnlyONEofcl",
-			"https://twitter.com/YourOnlyONEofcl",
-			"https://instagram.com/YourOnly.One",
-			"https://facebook.com/YourOnly.ONE.ofcl",
-			"https://www.pinterest.com/YourOnlyONEofcl",
-			"https://www.eyeem.com/u/YourOnlyOne",
-			"https://www.goodreads.com/youronlyone",
-			"https://vero.co/youronlyone"
-		]
+    #isni = ""
+    #issn = ""
+    acquirelicensepage = "https://im.youronly.one/p/legal-notice/"
+    copyrightnotice = "Copyleft 🄯 CC-BY-SA 4.0 International by JC John Sese Cuneta"
+    credittext = "I'M YourOnly.One (https://im.youronly.one/)"
+    datecreated = "2020-07-01"
+    isblog = false
+    license = "https://im.youronly.one/p/legal-notice/"
+    publisher = "https://yelosan.youronly.one/"
+    sameas = [
+      "https://facebook.com/101597304949708/",
+      "https://facebook.com/yelosanpub/",
+      "https://codeberg.org/yelosan",
+      "https://gitlab.com/yelosan",
+      "https://github.com/yelosan"
+    ]
 
-		[[semweb.persons]]
-			person = "yuki"
-			#id = ""
-			#name = ""ᜌᜓᜃᜒ (雪亮 | 스노 | Yuki)"
-			#url = ""
-			#avatar = ""
-			#rel = "noopener external nofollow"
+    [[semweb.persons]]
+      person = "yuki"
+      #id = ""
+      #name = ""ᜌᜓᜃᜒ (雪亮 | 스노 | Yuki)"
+      #url = ""
+      #avatar = ""
+      #rel = "noopener external nofollow"
 
-	[verify]
+  [verify]
     flattr = "4j1gl5"
     wot = "06c7ef6e7986586661ef"
     ocs = "c563648adcfa021a0dfd3d3d8f0be64a"
-		followit = "jqEnpsdBvHltNryJFB4A"
+    followit = "jqEnpsdBvHltNryJFB4A"
 
-	[analytics]
+  [analytics]
     cfwebanalytics = "07a05e5302d1458da3561ce41791e284"
     microanalyticsio = "ZwSg9rf6GA"
     naver = "1375cb4224f1c40"   # https://youronly.one
@@ -126,15 +122,15 @@ favicon_mstilecolor = "#2b5797"
 ### END: Other Settings ###
 
 ### BGN: OLD ###
-	# Paninap copyleft
-	[params.copyleft]
-		ContentOn = "Content on"
-		SiteTitle = "Yelosan Publishing"
-		UnlessOtherwise = ", unless otherwise specified."
+  # Paninap copyleft
+  [params.copyleft]
+    ContentOn = "Content on"
+    SiteTitle = "Yelosan Publishing"
+    UnlessOtherwise = ", unless otherwise specified."
 
-	[params.name]
-		yahuhanan = "Yahuhanan"
-		yukia = "Yukia"
-		sese = "Sese"
-		cuneta = "Cuneta"
+  [params.name]
+    yahuhanan = "Yahuhanan"
+    yukia = "Yukia"
+    sese = "Sese"
+    cuneta = "Cuneta"
 ### END: OLD ###
