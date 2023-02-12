@@ -1,4 +1,4 @@
-module gitlab.com/yelosan/ypub.git
+module codeberg.org/yelosan/ypub.git
 
 go 1.19
 
