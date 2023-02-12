@@ -2,8 +2,8 @@
 title = "ᜆᜓᜅ᜔ᜃᜓᜎ᜔ ᜐ ᜌᜒᜎᜓᜐᜈ᜔ Publishing"
 description = ""
 
-date = "2020-07-30T06:01:00+00:00"                                          # manually adjust to local timezone
-#lastmod = "2020-07-30T06:01:00+00:00"                                       # manually adjust to local timezone
+date = 2020-07-30T06:01:00+00:00                                          # manually adjust to local timezone
+#lastmod = 2020-07-30T06:01:00+00:00                                       # manually adjust to local timezone
 
 #aliases = [""]
 slug = "about"
