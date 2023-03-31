@@ -3,9 +3,9 @@
 
 # BGN: theme
   [notFound]
-    other = "ᜑᜒᜈ᜔ᜇᜒ ᜋᜃᜒᜆ ᜀᜅ᜔ ᜉᜑᜒᜈ᜶"
+    other = "ᜑᜒᜈ᜔ᜇᜒ ᜋᜃᜒᜆ ᜀᜅ᜕ ᜉᜑᜒᜈ᜶"
   [wordCount]
-    one = "ᜁᜐᜈ᜔ ᜐᜎᜒᜆ"
+    one = "ᜁᜐᜈ᜕ ᜐᜎᜒᜆ"
     other = "{{ .Count }} ᜋᜅ ᜐᜎᜒᜆ"
 # END: theme
 
@@ -38,17 +38,17 @@
   [blogs]
     other = "Blog"
   [translations]
-    other = "ᜋᜅ ᜐᜎᜒᜈ᜔"
+    other = "ᜋᜅ ᜐᜎᜒᜈ᜕"
   [postAvailable]
-    other = "ᜁᜊᜅ᜔ ᜐᜎᜒᜈ᜔"
+    other = "ᜁᜊᜅ᜕ ᜐᜎᜒᜈ᜕"
   [featuredposts]
     other = "Featured Posts"
   [recentposts]
-    other = "ᜋᜅ ᜊᜄᜓᜅ᜔ post"
+    other = "ᜋᜅ ᜊᜄᜓᜅ᜕ post"
   [lastmod]
-    other = "ᜑᜓᜎᜒᜅ᜔ update"
+    other = "ᜑᜓᜎᜒᜅ᜕ update"
   [lastModified]
-    other = "ᜑᜓᜎᜒᜅ᜔ update"
+    other = "ᜑᜓᜎᜒᜅ᜕ update"
   [allChannels]
     other = "ᜋᜅ channel"
   [allCategories]
@@ -95,15 +95,15 @@
   [postby]
     other = "Post ᜈᜒ"
   [readmore]
-    other = "ᜉᜆᜓᜎᜓᜌ᜔ ᜈ ᜊᜐᜑᜒᜈ᜔"
+    other = "ᜉᜆᜓᜎᜓᜌ᜕ ᜈ ᜊᜐᜑᜒᜈ᜕"
   [tableOfContents]
-    other = "ᜆᜎᜀᜈ᜔ ᜈᜅ᜔ ᜈᜒᜎᜎᜋᜈ᜔"
+    other = "ᜆᜎᜀᜈ᜕ ᜈᜅ᜕ ᜈᜒᜎᜎᜋᜈ᜕"
   [toc]
-    other = "ᜆᜎᜀᜈ᜔ ᜈᜅ᜔ ᜈᜒᜎᜎᜋᜈ᜔"
+    other = "ᜆᜎᜀᜈ᜕ ᜈᜅ᜕ ᜈᜒᜎᜎᜋᜈ᜕"
   [search]
-    other = "ᜋᜄ᜔ᜑᜈᜉ᜔"
+    other = "ᜋᜄ᜔ᜑᜈᜉ᜕"
   [nowplaying]
-    other = "ᜉᜒᜈᜃᜒᜃᜒᜅ᜔ᜄᜈ᜔"
+    other = "ᜉᜒᜈᜃᜒᜃᜒᜅ᜔ᜄᜈ᜕"
 # END: YourOnly.One: Global
 
 # BGN: attribution and license
@@ -181,7 +181,7 @@
   [PermissionsBeyondScope]
     other = "Permissions beyond the scope of this license may be available at"
   [about]
-    other = "About Us"
+    other = "ᜆᜓᜅ᜔ᜃᜓᜎ᜕"
   [terms]
     other = "Terms of Service"
   [privacy]
