@@ -32,6 +32,9 @@ workspace = "off"
 #  # END: /yelosan.youronly.one/ content
 
 [[imports]]
+  path = "codeberg.org/yelosan/hugo-globals"
+
+[[imports]]
   path = "codeberg.org/youronlyone/defaults"
 
 [[imports]]
