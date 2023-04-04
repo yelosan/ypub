@@ -25,7 +25,7 @@
 ####### BACKEND #######
   #canonifyURLs = true                                      # default: false; marked for removeal; true for our use-case
 
-  disableKinds = ["robotsTXT"]
+  disableKinds = ["taxonomy", "term", "taxonomyTerm", "RSS", "robotsTXT"]
   #enableGitInfo = false                                     # default: false; for Git versioning
   enableMissingTranslationPlaceholders = true              # default: false
   #timeout = "30s"                                           # default: 30s
