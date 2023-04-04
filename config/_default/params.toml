@@ -20,10 +20,10 @@ favicon_mstilecolor = "#2b5797"
 ### END: Structured Data ###
 
 ### BGN: Theme settings
-  dateform        = "August 08, 2020"
-  dateformShort   = "Aug 08"
-  dateformNum     = "2020-07-23"
-  dateformNumTime = "2020-07-23 17:08:24 +0800"
+  dateform        = "January 02, 2006"
+  dateformShort   = "Jan 02"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04:05Z07:00"
 
   homeSubtitle = "Mabuhay!"
 
@@ -44,14 +44,18 @@ favicon_mstilecolor = "#2b5797"
 
   justifyContent = false  # Set "text-align: justify" to .post-content.
 
+  # Integrate Plausible.io
+  # plausibleDataDomain = 'test.com'
+  # plausibleScriptSource = 'https://plausible.io/js/script.js'
+
   [footer]
     trademark = false
     rss = false
     copyright = false
     author = false
 
-    #topText = []
-    #bottomText = []
+    topText = []
+    bottomText = []
 
   [favicon.color]
     mask = "#252627"
