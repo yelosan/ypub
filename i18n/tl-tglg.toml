@@ -44,11 +44,11 @@
   [featuredposts]
     other = "Featured Posts"
   [recentposts]
-    other = "ᜋᜅ ᜊᜄᜓᜅ᜕ post"
+    other = "ᜋᜅ ᜊᜄᜓᜅ᜔ post"
   [lastmod]
-    other = "ᜑᜓᜎᜒᜅ᜕ update"
+    other = "ᜑᜓᜎᜒᜅ᜔ update"
   [lastModified]
-    other = "ᜑᜓᜎᜒᜅ᜕ update"
+    other = "ᜑᜓᜎᜒᜅ᜔ update"
   [allChannels]
     other = "ᜋᜅ channel"
   [allCategories]
@@ -95,11 +95,11 @@
   [postby]
     other = "Post ᜈᜒ"
   [readmore]
-    other = "ᜉᜆᜓᜎᜓᜌ᜕ ᜈ ᜊᜐᜑᜒᜈ᜕"
+    other = "ᜉᜆᜓᜎᜓᜌ᜔ ᜈ ᜊᜐᜑᜒᜈ᜕"
   [tableOfContents]
-    other = "ᜆᜎᜀᜈ᜕ ᜈᜅ᜕ ᜈᜒᜎᜎᜋᜈ᜕"
+    other = "ᜆᜎᜀᜈ᜔ ᜈᜅ᜕ ᜈᜒᜎᜎᜋᜈ᜕"
   [toc]
-    other = "ᜆᜎᜀᜈ᜕ ᜈᜅ᜕ ᜈᜒᜎᜎᜋᜈ᜕"
+    other = "ᜆᜎᜀᜈ᜔ ᜈᜅ᜔ ᜈᜒᜎᜎᜋᜈ᜕"
   [search]
     other = "ᜋᜄ᜔ᜑᜈᜉ᜕"
   [nowplaying]
