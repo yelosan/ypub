@@ -8,11 +8,11 @@
         {{- if .Site.Params.EnableGlobalLanguageMenu }}
         <div class="submenu">
             <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">{{ .Site.Language.Params.languageflag }} ({{ .Site.Language.LanguageName }})</a>
+                <a href="javascript:void(0)" class="dropbtn">{{ .Site.Params.languageflag }} ({{ .Site.Language.LanguageName }})</a>
                 <div class="dropdown-content">
                     {{ if .Site.IsMultiLingual }}
                         {{ range $.Translations }}
-                            <a href="{{ .Permalink }}" lang="{{ or (.Site.LanguageCode) (.Site.Language.Lang) }}" title="{{ .Site.Language.LanguageName }}">{{ .Site.Language.Params.languageflag }} ({{ .Language.LanguageName }})</a>
+                            <a href="{{ .Permalink }}" lang="{{ or (.Site.LanguageCode) (.Site.Language.Lang) }}" title="{{ .Site.Language.LanguageName }}">{{ .Site.Params.languageflag }} ({{ .Site.Language.LanguageName }})</a>
                         {{ end }}
                     {{ end }}
                 </div>

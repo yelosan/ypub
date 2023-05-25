@@ -2,8 +2,8 @@
 _merge = "deep"
 
 [en-ph]
-  subtitle = "Welcome!"
   [en-ph.params]
+    subtitle = "Welcome!"
     homeSubtitle = "Welcome!"
   [[en-ph.menu.main]]
     identifier = "about"
@@ -15,8 +15,8 @@ _merge = "deep"
     url = "https://im.youronly.one/"
 
 [fil]
-  subtitle = "Mabuhay!"
   [fil.params]
+    subtitle = "Mabuhay!"
     homeSubtitle = "Mabuhay!"
   [[fil.menu.main]]
     identifier = "about"
@@ -28,9 +28,9 @@ _merge = "deep"
     url = "https://im.youronly.one/"
 
 [tl-tglg]
-  title = "ᜌᜒᜎᜓᜐᜈ᜕ Publishing"
-  subtitle = "ᜋᜊᜓᜑᜌ᜕"
+  title = "ᜌᜒᜎᜓᜐᜈ᜔ Publishing"
   [tl-tglg.params]
+    subtitle = "ᜋᜊᜓᜑᜌ᜕"
     homeSubtitle = "ᜋᜊᜓᜑᜌ᜕"
     [tl-tglg.params.logo]
       logoMark     = "₱"
