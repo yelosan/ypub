@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 {{/* Multilang support for lang attribute */}}
-<html lang="{{ or (.Site.LanguageCode) (.Site.Language.Lang) }}" prefix="og: https://ogp.me/ns#{{ if in .Site.Params.mainTypes .Type }} article: https://ogp.me/ns/article#{{ end }}">
+<html lang="{{ .Site.LanguageCode }}" prefix="og: https://ogp.me/ns#{{ if in .Site.Params.mainTypes .Type }} article: https://ogp.me/ns/article#{{ end }}">
     <head>
         {{ partial "head.html" . }}
     </head>
@@ -13,7 +13,7 @@
                 {{- end }}
             <!-- END: Yuki Body Top -->
     {{ end }}
-    
+
         <div class="container">
             {{ partial "header.html" . }}
 
