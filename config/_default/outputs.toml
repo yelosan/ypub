@@ -1,8 +1,8 @@
 # See: https://gohugo.io/getting-started/configuration/#merge-configuration-from-themes
 _merge = "deep"
 
+## disabled: taxonomy, term, RSS
+
 home = ["HTML"]
 page = ["HTML"]
-section = ["HTML", "JSON"]
-taxonomy = ["HTML", "JSON"]
-term = ["HTML", "JSON"]
+section = ["HTML"]
