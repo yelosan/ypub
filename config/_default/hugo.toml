@@ -23,7 +23,6 @@
 
 
 ####### BACKEND #######
-  #canonifyURLs = true                                      # default: false; marked for removeal; true for our use-case
 
   disableKinds = ["taxonomy", "term", "RSS", "robotsTXT"]
   #enableGitInfo = false                                     # default: false; for Git versioning

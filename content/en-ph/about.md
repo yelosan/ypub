@@ -38,7 +38,7 @@ type = "article"                                                           # art
 [[authors]]
   person = "yuki"
   #id = ""
-  name = "ᜌᜓᜃᜒ (雪亮 | 스노 | Yuki)"
+  name = "ᜌᜓᜃᜒ (Yuki | 사요한 | 謝雪矢（ゆきや）)"
   url = "https://im.youronly.one/yuki/"
   avatar = "https://rsc.youronly.one/img/y/Yuki_flag-square-300x.webp"
   #rel = "noopener"
@@ -48,7 +48,7 @@ Are you looking for a content writer? Or perhaps you want to create a documentat
 
 ## Who We Are
 
-**Yelosan Publishing** is a service provided by [Yahuhanan Yukia Sese Cuneta](https://iam.youronly.one). He was employed as a content officer, a ghost writer, and press release editor during his employment years in addition to being a part-time blogger. He was also involved in developing various documentation projects and building of online communities.
+**Yelosan Publishing** is a service provided by [Yahuhanan Yukiya Sese Cuneta](https://iam.youronly.one). He was employed as a content officer, a ghost writer, and press release editor during his employment years in addition to being a part-time blogger. He was also involved in developing various documentation projects and building of online communities.
 
 Yuki also offers event coverage as well as translation services—from English to Filipino to Baybayin. He aims to give you the highest quality of service rarely found anywhere.
 
