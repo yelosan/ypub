@@ -23,7 +23,7 @@ favicon_mstilecolor = "#2b5797"
   dateform        = "January 02, 2006"
   dateformShort   = "Jan 02"
   dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 MST"
+  dateformNumTime = "2006-01-02 15:04"
 
   homeSubtitle = "Mabuhay!"
 
