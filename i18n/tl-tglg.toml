@@ -7,6 +7,10 @@
   [wordCount]
     one = "ᜁᜐᜈ᜕ ᜐᜎᜒᜆ"
     other = "{{ .Count }} ᜋᜅ ᜐᜎᜒᜆ"
+  # partials/pagination-list.html
+    [pagination]
+      newerPosts = "Newer posts"
+      olderPosts = "Older posts"
 # END: theme
 
 # BGN: Date and Time Formats

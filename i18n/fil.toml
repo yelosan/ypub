@@ -7,6 +7,10 @@
   [wordCount]
     one = "Isang salita"
     other = "{{ .Count }} mga salita"
+  # partials/pagination-list.html
+    [pagination]
+      newerPosts = "Newer posts"
+      olderPosts = "Older posts"
 # END: theme
 
 # BGN: Date and Time Formats
