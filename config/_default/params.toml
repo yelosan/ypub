@@ -82,21 +82,6 @@ favicon_mstilecolor = "#2b5797"
 ### END: Theme settings
 
 ### BGN: Other Settings ###
-  ##### BGN: syndication #####
-    #[[sns]]
-    #  url = ''
-    #  icon = 'fediverse.svg'
-    [[sns]]
-      url = 'is.youronly.one'
-      icon = 'bluesky.svg'
-    [[sns]]
-      url = 't.youronly.one'
-      icon = 'tumblr.svg'
-    [[sns]]
-      url = 'youronlyoneofcl.wordpress.com'
-      icon = 'wordpress.svg'
-  ##### END: syndication #####
-
   [semweb]
     org = "yelosan"
 
