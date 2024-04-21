@@ -8,10 +8,10 @@
                     {{/* YourOnlyOne: changed */}}
                     {{- /* <a href="{{ .Permalink }}"><span class="flag fi fi-{{ index $.Site.Data.langFlags (.Lang) }}"></span></a> */ -}}
                     <a href="{{ .Permalink }}">
-                      <span class="flag fi fi-{{ index $.Site.Data.langFlags (.Lang) }}" title="{{ .Param "languageName" }}">
+                      <span class="flag fi fi-{{ index $.Site.Data.langFlags (.Lang) }}" title="{{ .Site.Language.LanguageName }}">
                         {{/* <span class="flag flag-icon flag-icon-{{ .Param "languageCode" }} flag-icon-squared">{{ .Param "languageFlag" }}</span> */}}
                       </span>
-                    </a> <a href="{{ .Permalink }}">({{ .Param "languageName" }})</a>
+                    </a> <a href="{{ .Permalink }}">({{ .Site.Language.LanguageName }})</a>
                 {{ end}}
               {{ end }}
             </p>
