@@ -20,7 +20,7 @@
   defaultContentLanguageInSubdir = true                   # default: false
   hasCJKLanguage = true                                    # default: false
   # Our LANG: 'en', 'en-ph', 'fil', 'fil-hang', 'fil-jamo', 'tl-tglg', 'zh-hant', 'zh-hans', 'ja', 'ko'
-  disableLanguages = ['en', 'fil', 'fil-hang', 'fil-jamo', 'tl-tglg', 'zh-hant', 'zh-hans', 'ja', 'ko']
+  disableLanguages = ['en', 'fil-hang', 'fil-jamo', 'zh-hant', 'zh-hans', 'ja', 'ko']
 
 
 ####### BACKEND #######
