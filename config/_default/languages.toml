@@ -9,10 +9,12 @@ _merge = "deep"
     identifier = "about"
     name = "About"
     url = "about/"
+    weight = 1
   [[en-ph.menu.main]]
     identifier = "youronlyone"
     name = "YourOnly.One"
     url = "https://im.youronly.one/"
+    weight = 2
 
 [fil]
   [fil.params]
@@ -22,10 +24,12 @@ _merge = "deep"
     identifier = "about"
     name = "Tungkol"
     url = "about/"
+    weight = 1
   [[fil.menu.main]]
     identifier = "youronlyone"
     name = "YourOnly.One"
     url = "https://im.youronly.one/"
+    weight = 2
 
 [tl-tglg]
   title = "ᜌᜒᜎᜓᜐᜈ᜔ Publishing"
@@ -39,7 +43,9 @@ _merge = "deep"
     identifier = "about"
     name = "ᜆᜓᜅ᜔ᜃᜓᜎ᜕"
     url = "about/"
+    weight = 1
   [[tl-tglg.menu.main]]
     identifier = "youronlyone"
     name = "YourOnly.One"
     url = "https://im.youronly.one/"
+    weight = 2
