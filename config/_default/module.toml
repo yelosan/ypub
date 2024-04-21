@@ -55,22 +55,9 @@ workspace = "off"
     source = "assets"
     target = "assets"
 
-  #[[mounts]]
-  #  source = "content/en"
-  #  target = "content"
-  #  lang = "en"                                        # when in multihost / multilang mode
   [[mounts]]
-    source = "content/en-ph"
+    source = "content"
     target = "content"
-    lang = "en-ph"                                      # when in multihost / multilang mode
-  [[mounts]]
-    source = "content/fil"
-    target = "content"
-    lang = "fil"                                      # when in multihost / multilang mode
-  [[mounts]]
-    source = "content/tl-tglg"
-    target = "content"
-    lang = "tl-tglg"                                      # when in multihost / multilang mode
 
   [[mounts]]
     source = "data"
@@ -84,19 +71,6 @@ workspace = "off"
     source = "layouts"
     target = "layouts"
 
-  #[[mounts]]
-  #  source = "static/en"
-  #  target = "static"
-  #  lang = "en"                                        # when in multihost / multilang mode
   [[mounts]]
-    source = "static/en-ph"
+    source = "static"
     target = "static"
-    lang = "en-ph"                                      # when in multihost / multilang mode
-  [[mounts]]
-    source = "static/fil"
-    target = "static"
-    lang = "fil"                                         # when in multihost / multilang mode
-  [[mounts]]
-    source = "static/tl-tglg"
-    target = "static"
-    lang = "tl-tglg"                                         # when in multihost / multilang mode
