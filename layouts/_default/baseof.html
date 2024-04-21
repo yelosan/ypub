@@ -1,8 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 {{/* Multilang support for lang attribute */}}
-<html lang="{{ site.Language.LanguageCode }}" dir="{{ site.Language.LanguageDirection }}" prefix="og: https://ogp.me/ns#{{ if in .Site.Params.mainTypes .Type }} article: https://ogp.me/ns/article#{{ end }}" class="h-feed">
+<html class="h-feed no-js" lang="{{ or site.Language.LanguageCode site.Language.Lang }}" dir="{{ site.Language.LanguageDirection }}" prefix="schema: http://schema.org/ v: http://rdf.data-vocabulary.org/# vcard: http://www.w3.org/2006/vcard/ns# foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns#{{ if in .Site.Params.mainTypes .Type }} article: https://ogp.me/ns/article#{{ end }} cc: http://creativecommons.org/ns#">
     <head>
-        {{ partial "head.html" . }}
+        {{/* partial "head.html" . */}}
+
+        <!-- BGN: YourOnly.One Head-01-Top -->
+          {{- if templates.Exists "partials/youronly.one-head-01-top.html" -}}
+            {{ partial "youronly.one-head-01-top.html" . }}
+          {{- end }}
+        <!-- END: YourOnly.One Head-01-Top -->
+
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link href="https://youronly.one" rel="me" />
+        <link href="https://im.youronly.one" rel="me" />
+        <link href="https://iam.youronly.one" rel="author me" />
+        <link href="https://yelosan.youronly.one" rel="publisher me" />
+        <link href="https://youronly.one/0xF2F9BE4C3D8E4F53.pub.asc" rel="pgpkey">
+        <link href="https://semweb.youronly.one" rel="project" />
+
+        {{ block "title" . }}
+            <title>
+                {{ if .IsHome }}
+                    {{ $.Site.Title }} {{ with $.Site.Params.Subtitle }} — {{ . }} {{ end }}
+                {{ else }}
+                    {{ .Title }} :: {{ $.Site.Title }} {{ with $.Site.Params.Subtitle }} — {{ . }}{{ end }}
+                {{ end }}
+            </title>
+        {{ end }}
+
+        <!-- CSS -->
+        {{ $options := (dict "targetPath" "main.css" "outputStyle" "compressed" "enableSourceMap" true) }}
+        {{ $style := resources.Get "scss/main.scss" | resources.ToCSS $options | resources.Fingerprint }}
+        <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+
+        {{ range $val := $.Site.Params.customCSS }}
+            {{ if gt (len $val) 0 }}
+                <link rel="stylesheet" type="text/css" href="{{ $val }}">
+            {{ end }}
+        {{ end }}
+
+        <!-- Icons -->
+        {{- partial "favicons.html" . }}
+
+        <!-- Custom head tags -->
+        {{- if templates.Exists "partials/extra-head.html" -}}
+            {{ partial "extra-head.html" . }}
+        {{- end }}
+
+        <!-- Plausible.io -->
+        {{- if $.Site.Params.plausibleDataDomain }}
+            <script defer data-domain="{{ .Site.Params.plausibleDataDomain }}" src="{{ .Site.Params.plausibleScriptSource }}"></script>
+        {{- end}}
+
+        <!-- BGN: YourOnly.One Head-02-Bottom -->
+          {{- if templates.Exists "partials/youronly.one-head-02-btm.html" -}}
+            {{ partial "youronly.one-head-02-btm.html" . }}
+          {{- end }}
+        <!-- END: YourOnly.One Head-02-Bottom -->
     </head>
 
     {{ block "body" . }}
