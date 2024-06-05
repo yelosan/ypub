@@ -38,7 +38,7 @@ type = "article"                                                           # art
 [[authors]]
   person = "yuki"
   #id = ""
-  name = "ᜌᜓᜃᜒ (Yuki | 사요한 | 謝雪矢（ゆきや）)"
+  name = "Yohan Yuki Xie"
   url = "https://im.youronly.one/yuki/"
   avatar = "https://rsc.youronly.one/img/y/Yuki_flag-square-300x.webp"
   #rel = "noopener"
