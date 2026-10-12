@@ -2,7 +2,7 @@
 
 ####### BASE CONFIG #######
   baseURL = "https://yelosan.youronly.one/"                                              # .Site.BaseURL
-  title = "Yelosan Publishing"                                                # .Site.Title; IMPT for Schema.org; OpenGraph; Twitter Cards; RDFa, Microdata, JSON-LD
+  title = "Yelosan Publishing is now closed"                                                # .Site.Title; IMPT for Schema.org; OpenGraph; Twitter Cards; RDFa, Microdata, JSON-LD
   copyright = ""                                            # .Site.Copyright; leave empty to override theme
   timeZone = "Etc/UTC"
 
